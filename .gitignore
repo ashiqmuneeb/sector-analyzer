@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Environment files
+.env
+.env.*
+venv/
+venv*/ 
+.venv/
+.venv*/
+
+# VSCode & IDEs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
