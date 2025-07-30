@@ -1,23 +1,46 @@
-# Python
+# Byte-compiled / cache files
 __pycache__/
 *.py[cod]
+*.so
+*.pyd
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Environment variables
+.env
+.env.*
+
+# Package distribution
 *.egg
 *.egg-info/
 dist/
 build/
 
-# Environment files
-.env
-.env.*
-venv/
-venv*/ 
-.venv/
-.venv*/
-
-# VSCode & IDEs
+# VSCode / IDE
 .vscode/
 .idea/
 
 # OS files
 .DS_Store
 Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Jupyter and notebooks (optional)
+*.ipynb
+.ipynb_checkpoints/
+
+# Coverage/testing
+.coverage
+htmlcov/
+.tox/
+pytest_cache/
+.cache/
